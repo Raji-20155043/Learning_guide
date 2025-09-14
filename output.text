@@ -1,0 +1,104 @@
+
+Ideapad Slim@DESKTOP-SIVH387 MINGW64 ~/Raji/Learning_guide (main)
+$ git add instructions.md
+
+Ideapad Slim@DESKTOP-SIVH387 MINGW64 ~/Raji/Learning_guide (main)
+$ git commit -m "Pushing changes to Remote"
+[main c23982e] Pushing changes to Remote
+ 1 file changed, 42 insertions(+), 1 deletion(-)
+
+Ideapad Slim@DESKTOP-SIVH387 MINGW64 ~/Raji/Learning_guide (main)
+$ git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 1011 bytes | 1011.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Raji-20155043/Learning_guide.git
+   69374a1..c23982e  main -> main
+branch 'main' set up to track 'origin/main'.
+
+Ideapad Slim@DESKTOP-SIVH387 MINGW64 ~/Raji/Learning_guide (main)
+$ git status
+On branch branch_instructions
+Your branch is up to date with 'origin/branch_instructions'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   instructions.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Ideapad Slim@DESKTOP-SIVH387 MINGW64 ~/Raji/Learning_guide (branch_instructions)
+$ git add instructions.md
+
+Ideapad Slim@DESKTOP-SIVH387 MINGW64 ~/Raji/Learning_guide (branch_instructions)
+$ git commit -m "Creating New Branch"
+[branch_instructions cd268d9] Creating New Branch
+ 1 file changed, 8 insertions(+)
+
+Ideapad Slim@DESKTOP-SIVH387 MINGW64 ~/Raji/Learning_guide (branch_instructions)
+$ git status
+On branch branch_instructions
+Your branch is ahead of 'origin/branch_instructions' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Ideapad Slim@DESKTOP-SIVH387 MINGW64 ~/Raji/Learning_guide (branch_instructions)
+$ git log --oneline
+cd268d9 (HEAD -> branch_instructions) Creating New Branch
+c23982e (origin/main, origin/branch_instructions, main) Pushing changes to Remote
+69374a1 Creating Local Repository and Pushing to remote
+
+Ideapad Slim@DESKTOP-SIVH387 MINGW64 ~/Raji/Learning_guide (branch_instructions)
+$ git push --set-upstream origin branch_instructions
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 437 bytes | 437.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Raji-20155043/Learning_guide.git
+   c23982e..cd268d9  branch_instructions -> branch_instructions
+branch 'branch_instructions' set up to track 'origin/branch_instructions'.
+
+Ideapad Slim@DESKTOP-SIVH387 MINGW64 ~/Raji/Learning_guide (branch_instructions)
+$ git log --oneline
+cd268d9 (HEAD -> branch_instructions, origin/branch_instructions) Creating New Branch
+c23982e (origin/main, main) Pushing changes to Remote
+69374a1 Creating Local Repository and Pushing to remote
+
+Ideapad Slim@DESKTOP-SIVH387 MINGW64 ~/Raji/Learning_guide (branch_instructions)
+$ git add instructions.md
+
+Ideapad Slim@DESKTOP-SIVH387 MINGW64 ~/Raji/Learning_guide (branch_instructions)
+$ git commit -m "Performing Pull request and Merge Pull request"
+[branch_instructions b364288] Performing Pull request and Merge Pull request
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+
+Ideapad Slim@DESKTOP-SIVH387 MINGW64 ~/Raji/Learning_guide (branch_instructions)
+$ git push --set-upstream origin branch_instructions
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 565 bytes | 565.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Raji-20155043/Learning_guide.git
+   cd268d9..b364288  branch_instructions -> branch_instructions
+branch 'branch_instructions' set up to track 'origin/branch_instructions'.
+
+Ideapad Slim@DESKTOP-SIVH387 MINGW64 ~/Raji/Learning_guide (branch_instructions)
+$ git log --oneline
+b364288 (HEAD -> branch_instructions, origin/branch_instructions) Performing Pull request and Merge Pull request
+cd268d9 Creating New Branch
+c23982e (origin/main, main) Pushing changes to Remote
+69374a1 Creating Local Repository and Pushing to remote
+
+Ideapad Slim@DESKTOP-SIVH387 MINGW64 ~/Raji/Learning_guide (branch_instructions)
+$
