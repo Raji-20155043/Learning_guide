@@ -39,4 +39,12 @@
     git push -u origin main
 
 
+### Creating New Brach to the Repository
+1. Create new branch to the Repository
+    In this case,
+        git checkout -b branch_instructions
+2. Add content into file (instructions.md) which will be under new branch
+3. 
+
+
 
