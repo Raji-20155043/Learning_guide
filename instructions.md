@@ -39,6 +39,7 @@
     git push -u origin main
 
 
+
 ### Creating New Brach to the Repository
 1. Create new branch to the Repository
     In this case,
@@ -50,6 +51,7 @@
     Ensure on GitHub you can able to see the Pull request page
 4.  On GitHub "Create the Pull request"
 5.  Once the Pull request updated, Confirm the "Merge Pull request"
+6. Then switch to Main branch
 
 
     Note: git log --oneline command shows the information about the logs
