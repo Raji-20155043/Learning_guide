@@ -40,3 +40,21 @@
 
 
 
+### Creating New Brach to the Repository
+1. Create new branch to the Repository
+    In this case,
+        git checkout -b branch_instructions
+2. Add content into file (instructions.md) which will be under new branch
+3. Push to the remote by the following command
+    git push --set-upstream origin branch_instructions
+    which allows you to push the file to remote from the new branch directly (you can merge this in GitHub)
+    Ensure on GitHub you can able to see the Pull request page
+4.  On GitHub "Create the Pull request"
+5.  Once the Pull request updated, Confirm the "Merge Pull request"
+6. Then switch to Main branch
+
+
+    Note: git log --oneline command shows the information about the logs
+
+
+
